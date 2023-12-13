@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    gap: 15px;
+    color: rgb(34, 194, 141);
+}
+
+.casa {
+    width: 50%;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.info ul {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 500px;
+    gap: 20px;
+    font-size: larger;
+}
+
+.home {
+    color: rgb(34, 194, 141);
+}
+
+.main-imoveis {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.conteudo {
+    width: 50%;
+    gap: 30px;
+    display: flex;
+    position: relative;
+    top: 200px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.conteudo h1 {
+    color: rgb(43, 43, 97);
+}
+
+.botao {
+    width: 200px;
+    height: 60px;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 194, 141);
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.listing {
+    padding: 100px;
+}
+
+.conteudo-1 {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteudo-1 h1 {
+    font-size: xx-large;
+    color: rgb(43, 43, 97);
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+.types p {
+    color: rgb(34, 194, 141);
+}
+
+.apartament {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(185, 230, 215);
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+}
+
+.villa {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(185, 230, 215);
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+}
+
+.home2 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(185, 230, 215);
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+}
+
+.office {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(185, 230, 215);
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+}
+
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.conteudo-2 {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo-2 h1 {
+    font-size: xx-large;
+    color: rgb(43, 43, 97);
+}
+
+.houses {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.botao-houses {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(34, 194, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.botao-houses p {
+    color: white;
+}
+
+.golden {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.golden h1 {
+    color: rgb(43, 43, 97);
+}
+
+.golden p {
+    color: rgb(34, 194, 141);
+}
+
+.golden figure img {
+    border-radius: 10px;
+    width: 450px;
+}
+
+.location {
+    display: flex;
+    gap: 10px;
+    color: rgb(185, 230, 215)
+}
+
+.location p {
+    color: rgb(139, 139, 139)
+}
+
+.location figure img {
+    width: 15px;
+    background-color: rgb(34, 194, 141);
+}
+
+.contact {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact h1 {
+    font-size: xx-large;
+    color: rgb(43, 43, 97);
+}
+
+.essenciais {
+    display: flex;
+    height: 300px;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    outline: unset;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.submit {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(34, 194, 141);
+    height: 50px;
+    width: 350px;
+}
+
+.footer {
+    background-color: rgb(24, 42, 75);
+    padding: 100px;
+    display: flex;
+}
+
+.get-touch {
+    color: white;
+}
+
+.contact {
+    color: rgb(160, 160, 160);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer figure img {
+    width: 10px;
+}
+
+.touch {
+    display: flex;
+    gap: 5px;
+    margin-top:10px;
+}
+
+.touch p {
+    color: rgb(136, 136, 136);
+}
+
+.sociais {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.sociais figure img {
+    width: 50px;
+}
+
+.toch {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quick {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
