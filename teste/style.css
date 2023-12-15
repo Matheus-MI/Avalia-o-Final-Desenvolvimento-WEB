@@ -1,0 +1,67 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.cat-image {
+    margin-top: 20px;
+    max-width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-primary {
+    background-color: #343a40;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1d2124;
+}

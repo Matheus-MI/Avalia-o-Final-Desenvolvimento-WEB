@@ -8,14 +8,6 @@ header {
     flex-direction: row;
 }
 
-.banner {
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
 .logo {
     display: flex;
     width: 50%;
@@ -24,11 +16,11 @@ header {
     position: relative;
     left: 100px;
     gap: 15px;
-    color: rgb(34, 194, 141);
+    color: black;
 }
 
 .logo figure {
-    size-adjust: 100px;
+    width: 100px;
 }
 
 nav ul li {
